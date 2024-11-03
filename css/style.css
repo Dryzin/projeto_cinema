@@ -1,0 +1,35 @@
+* {
+    font-family: Arial, sans-serif;
+    text-decoration: unset;
+    text-align: center;
+}
+
+section.sessao-cidade h2 > a {
+    color: royalblue;
+}
+
+section.sessao-cidade p {
+    font-size: 20px;
+}
+
+section.sessao-cidade p[data-status="hoje"] {
+    color: darkgreen;
+}
+
+section.sessao-cidade p[data-status="amanha"] {
+    color: darkblue;
+}
+
+.retornar-botao{
+    display: inline-flex;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: 700;
+    padding: 10px;
+    background-color: #248f09;
+}
+
+.agencia-pg{
+    padding: 8px;
+    background-color: rgb(241, 241, 241);
+}
